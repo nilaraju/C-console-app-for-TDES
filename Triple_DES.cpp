@@ -537,7 +537,7 @@ void decrypt(long int n, char *str)
     FILE *out = fopen("1.txt", "wb+");
     fclose(out);
 
-    out = fopen("result.txt", "wb+");
+    out = fopen("output.txt", "wb+");
     fclose(out);
 
     FILE *in = fopen(str, "rb");
